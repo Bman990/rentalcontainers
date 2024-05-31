@@ -1,0 +1,271 @@
+/* body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: aqua;
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.headerDiv {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.firstColDiv {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ background-color: coral;
+ height: 15%;
+ align-items: center;
+}
+
+.imageDiv{
+    width: 55px;
+    height: 55px;
+}
+
+.imageDiv > img {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.nameDiv{
+margin-left: 6px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.sect1{
+margin-bottom: 7px;
+}
+
+.sect1 > h3 {
+    margin: 0px;
+}
+
+.sect2{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px;
+}
+
+.sect2 > p {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.sect2 > img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.secondColDiv{
+    background-color: crimson;
+    height: max-content;
+}
+
+.iconsDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.iconsDiv > .img1 {
+    width: 30px;
+    height: 30px;
+}
+
+.iconsDiv > .img2 {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.headerDiv {
+    width: 40%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstRowDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstColDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.imageDiv {
+    width: 55px;
+    height: 55px;
+}
+
+.imageDiv > img {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.nameDiv {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect1 {
+    margin-bottom: 7px;
+}
+
+.sect1 > h3 {
+    margin: 0px;
+}
+
+.sect2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.sect2 > p {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.sect2 > img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.secondColDiv {
+    height: max-content;
+}
+
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.iconsDiv > .img1 {
+    width: 30px;
+    height: 30px;
+}
+
+.iconsDiv > .img1:hover {
+    cursor: pointer;
+}
+.iconsDiv > .img2 {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.iconsDiv > .img2:hover{
+    cursor: pointer;
+}
+
+.secondRowDiv {
+}
+
+.secondRowDiv > p {
+    margin-left: 15px;
+}
+
+.thirdRowDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerImg {
+    height: 550px;
+    width: 550px;
+}
+
+.fourthRowDiv {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pLink {
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: small;
+    color: rgb(87, 87, 87);
+}
+
+.h3Slogan {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.pPunchline {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    color: rgb(87, 87, 87);
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getQBtn {
+    background-color: rgb(209, 209, 209);
+    border: none;
+    margin-right: 13px;
+    border-radius: 3px;
+    padding: 0.3em 0.7em 0.3em 0.7em;
+    font-size: 15px;
+}
+
+.getQBtn:hover{
+    cursor: pointer;
+}
